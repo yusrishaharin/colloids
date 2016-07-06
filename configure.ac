@@ -5,6 +5,7 @@ AM_INIT_AUTOMAKE([subdir-objects foreign -Wall -Werror])
 AC_LIBTOOL_WIN32_DLL
 
 AC_PROG_CXX
+AM_PROG_AR
 AC_LANG([C++])
 AC_CONFIG_SRCDIR([lib/particles.hpp])
 AC_CONFIG_HEADERS([config.h])
