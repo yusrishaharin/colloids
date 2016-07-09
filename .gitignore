@@ -8,3 +8,8 @@ Makefile.in
 ar-lib
 compile
 config.h.in
+*.o
+*.lo
+*.la
+**/.deps
+**/.dirstamp
