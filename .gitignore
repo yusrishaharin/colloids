@@ -7,3 +7,4 @@ configure
 Makefile.in
 ar-lib
 compile
+config.h.in
