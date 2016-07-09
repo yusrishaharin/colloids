@@ -18,7 +18,7 @@
 from __future__ import with_statement #for python 2.5, useless in 2.6
 import numpy as np
 import os.path, subprocess, shlex, string, re, time
-from colloids import lif, vtk
+import lif, vtk
 from scipy.ndimage.filters import gaussian_filter, gaussian_filter1d, sobel, uniform_filter
 from scipy.ndimage.morphology import grey_erosion, grey_dilation, binary_dilation
 from scipy.ndimage import measurements
